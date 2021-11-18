@@ -17,7 +17,7 @@ BEGIN
     FOR i FROM 0 TO set1.length-1 DO
         FOR j FROM 0 TO set2.length-1  DO
             IF (set1[i]=set2[j]) THEN
-            sumComm=sumComm+set1[i];
+            sumComm=sumComm+set1[i]*2;
                 BREAK;
             END_IF
             IF (j=set2.length-1) THEN
